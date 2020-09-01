@@ -20,3 +20,5 @@ if you want to get pdf output set as_pdf True (might not work in ide, use termin
 if you want [header,info,body] output set save False, info might not exist
 '''
 
+url = results['MEVLÂNÂ CELÂLEDDÎN-i RÛMÎ']
+get_article(url, save=True, as_pdf=False)
